@@ -1,0 +1,16 @@
+{
+    "name": "unplugin-auto-import-element-plus-preset",
+    "version": "1.0.0",
+    "description": "A Simple Preset for unplugin-auto-import.",
+    "main": "lib/index.js",
+    "scripts": {
+        "build": "tsc",
+        "release": "tsc && npm publish"
+    },
+    "author": "Jooies",
+    "license": "MIT",
+    "devDependencies": {
+        "typescript": "^4.5.5",
+        "unplugin-auto-import": "^0.5.11"
+    }
+}
