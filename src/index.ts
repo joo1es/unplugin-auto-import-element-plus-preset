@@ -1,4 +1,5 @@
-import type { ImportsMap } from 'unplugin-auto-import/dist/types'
+type ImportNameAlias = [string, string]
+type ImportsMap = Record<string, (string | ImportNameAlias)[]>
 
 export default <ImportsMap>({
     'element-plus': [
@@ -92,5 +93,9 @@ export default <ImportsMap>({
         'ElDescriptionsItem',
         'ElResult',
         'ElSelectV2',
+        'ElMessage',
+        'ElNotification',
+        'ElMessageBox',
+        'ElLoadingService'
     ]
   })

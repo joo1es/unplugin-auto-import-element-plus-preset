@@ -10,7 +10,11 @@
     "author": "Jooies",
     "license": "MIT",
     "devDependencies": {
-        "typescript": "^4.5.5",
-        "unplugin-auto-import": "^0.5.11"
-    }
+        "typescript": "^4.5.5"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/joo1es/unplugin-auto-import-element-plus-preset.git"
+    },
+    "homepage": "https://github.com/joo1es/unplugin-auto-import-element-plus-preset"
 }
