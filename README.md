@@ -1,6 +1,22 @@
 A Simple Preset for unplugin-auto-import.
 
-## Quick Start (Vite)
+## Use type.d.ts
+
+tsconfig.json
+
+```json
+{
+    "compilerOptions": {
+        ...
+        "types": [
+            ...
+            "unplugin-auto-import-element-plus-preset/type"
+        ]
+    }
+}
+```
+
+## Use Preset (No Style)
 
 ```ts
 // vite.config.ts
